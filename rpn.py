@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 import operator
 
-op={'+':operator.add, '-':operator.sub,'*':operator.mul, '/':operator.floordiv}
+op={'+':operator.add, '-':operator.sub,'*':operator.mul, '/':operator.floordiv,'^':operator.pow}
 def calculate(arg):
 	#stack for calculater
 	stack=[]
