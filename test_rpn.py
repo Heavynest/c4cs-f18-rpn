@@ -14,3 +14,6 @@ class TestBasics(unittest.TestCase):
 	def test_division(self):
 		result=rpn.calculate('12 4 /')
 		self.assertEqual(3,result)
+	def test_carat(self):
+		result= rpn.calculate('2 5 ^')
+		self.assertEqual(32,result)
