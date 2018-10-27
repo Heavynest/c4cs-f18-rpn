@@ -16,7 +16,8 @@ def calculate(arg):
 			val1=int(stack.pop())
 			val2=int(stack.pop())
 			func=op[token]
-			result=func(val2,val1)	      				stack.append(result)			
+			result=func(val2,val1)
+			stack.append(result)			
 			return stack[0]
 
 def main():
